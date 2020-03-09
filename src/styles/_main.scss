@@ -1,0 +1,35 @@
+@import '~normalize.css/normalize.css'; // Import normalize.css to ensure all browsers relatively start at the same place
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    display: block;
+    width: 768px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+html {
+    background-color: #ededed;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0; 
+}
+
